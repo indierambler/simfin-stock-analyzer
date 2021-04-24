@@ -1,6 +1,6 @@
 function querySimfin(simfinID, timeValues, indicatorIds) {
   //General Info
-  var apiKey = "myApiKey"
+  var apiKey = config.simfinKey
   var metaID = "6";
   var operator = "eq";
   var request = "";
